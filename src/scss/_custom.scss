@@ -1,0 +1,74 @@
+// Here you can add other styles
+// font style body and table
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body,
+.table {
+  font-family: 'Tajawal', sans-serif;
+}
+// navbar sidebar background color
+.sidebar,
+.sidebar-brand,
+.sidebar-toggler {
+  background-color: #23263c;
+}
+// navbar sidebar text color
+.sidebar-nav .nav-link {
+  color: #fff;
+}
+// main area background color
+.bg-light {
+  background-color: #f0f4f7 !important;
+}
+// header and footer background color
+.header,
+.footer {
+  background-color: #faf9f6 !important;
+}
+// sidebar active nav link
+.sidebar-nav .nav-link.active {
+  background: #247ba0 !important;
+}
+// link styles
+a {
+  color: #3899ec;
+}
+// scrollbar style
+::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #cad9b2; /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5b7553;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+// customise datepicker clear button
+.react-datepicker__close-icon {position:static !important;}
+
+.form-label{
+  font-weight: 700;
+}
+
+
+.link {
+  color: #999;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.link:hover {
+  color: #23263c;
+}
+.activeCategoryLink {
+  color: #23263c;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+}
